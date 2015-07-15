@@ -1,0 +1,2 @@
+database:
+  database: YesodTemplate_test.sqlite3

@@ -1,0 +1,20 @@
+Default: &defaults
+  database: YesodTemplate.sqlite3
+  poolsize: 10
+
+Development:
+  <<: *defaults
+
+Testing:
+  database: YesodTemplate_test.sqlite3
+  <<: *defaults
+
+Staging:
+  database: YesodTemplate_staging.sqlite3
+  poolsize: 100
+  <<: *defaults
+
+Production:
+  database: YesodTemplate_production.sqlite3
+  poolsize: 100
+  <<: *defaults
