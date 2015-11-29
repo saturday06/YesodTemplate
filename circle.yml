@@ -2,6 +2,7 @@ dependencies:
   cache_directories:
     - "~/.stack"
     - "stack"
+    - ".stack-work"
 
   override:
     - |
