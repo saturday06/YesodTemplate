@@ -145,7 +145,6 @@ appMain = do
     -- Run the application with Warp
     runSettings (warpSettings foundation) app
 
-
 --------------------------------------------------------------
 -- Functions for DevelMain.hs (a way to run the app from GHCi)
 --------------------------------------------------------------
@@ -159,7 +158,6 @@ getApplicationRepl = do
 
 shutdownApp :: App -> IO ()
 shutdownApp _ = return ()
-
 
 ---------------------------------------------
 -- Functions for use in development with GHCi
