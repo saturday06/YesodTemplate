@@ -15,7 +15,7 @@ GEM
       thor (>= 0.18.1)
     guard-haskell (2.0.1)
       guard (>= 2.1.1)
-    listen (3.0.4)
+    listen (3.0.5)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
     lumberjack (1.0.9)
